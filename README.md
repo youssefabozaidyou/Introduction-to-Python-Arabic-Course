@@ -1,61 +1,34 @@
 ![Course Banner](banner.png)
-\# Introduction to Python (Arabic)
 
+# Introduction to Python (Arabic)
 
+> An original Arabic educational project based on the concepts covered in DataCamp's **Introduction to Python** course.
 
-> An original Arabic educational project based on the concepts covered in DataCamp's \*\*Introduction to Python\*\* course.
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+![Language](https://img.shields.io/badge/Language-Arabic-blue)
+![Python](https://img.shields.io/badge/Python-3.x-yellow)
+![NumPy](https://img.shields.io/badge/NumPy-Learning-blue)
+![Markdown](https://img.shields.io/badge/Markdown-Documentation-lightgrey)
 
+---
 
+# About This Project
 
-!\[Status](https://img.shields.io/badge/Status-Completed-brightgreen)
-
-!\[Language](https://img.shields.io/badge/Language-Arabic-blue)
-
-!\[Python](https://img.shields.io/badge/Python-3.x-yellow)
-
-!\[NumPy](https://img.shields.io/badge/NumPy-Learning-blue)
-
-!\[Markdown](https://img.shields.io/badge/Markdown-Documentation-lightgrey)
-
-
-
-\---
-
-
-
-\# About This Project
-
-
-
-This repository documents my learning journey while studying DataCamp's \*\*Introduction to Python\*\* course.
-
-
+This repository documents my learning journey while studying DataCamp's **Introduction to Python** course.
 
 Instead of simply completing the course, I created a complete Arabic educational project that includes my own explanations, examples, exercises, notes, videos, and supporting materials to help Arabic-speaking learners understand Python for Data Science.
 
-
-
-> \*\*Disclaimer\*\*
-
+> **Disclaimer**
 >
-
-> This repository is \*\*not affiliated with or endorsed by DataCamp\*\*.
-
+> This repository is **not affiliated with or endorsed by DataCamp**.
 >
-
 > DataCamp owns all rights to its original course, trademarks, and educational platform.
-
 >
-
 > All explanations, examples, PDF slides, Python files, Markdown notes, videos, thumbnails, and supporting educational materials contained in this repository were independently created by me.
 
+---
 
-
-\---
-
-
-
-## Repository Structure
+# Repository Structure
 
 ```text
 Introduction-to-Python-Arabic-Course/
