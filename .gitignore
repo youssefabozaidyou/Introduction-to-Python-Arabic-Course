@@ -1,0 +1,19 @@
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+
+# Obsidian
+.obsidian/

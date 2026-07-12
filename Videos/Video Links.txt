@@ -1,0 +1,51 @@
+=========================================
+Introduction to Python (Arabic)
+=========================================
+
+Created by:
+Youssef Abozaid
+
+Description:
+This folder contains the videos and supporting resources for my original Arabic educational course based on the concepts covered in DataCamp's "Introduction to Python" course. All explanations, examples, slides, exercises, Python practice files, and supporting materials were independently created by me.
+
+=========================================
+
+Complete Course Playlist
+
+https://www.youtube.com/playlist?list=PLJxDiedLmsHk
+
+=========================================
+
+Course Modules
+
+1. Python Basics
+https://youtu.be/laD0kqHQwKM
+
+2. Python Lists
+https://youtu.be/BVtc-GsyhT4
+
+3. Functions and Packages
+https://youtu.be/Vxx_rtWCpU0
+
+4. NumPy
+https://youtu.be/dgqNJwAjsYI
+
+=========================================
+
+Learning Materials
+
+• PDF Slides
+
+• Python Practice Files
+
+• Obsidian Notes
+
+• Exercises
+
+=========================================
+
+Course Status
+
+✓ Completed
+
+=========================================
