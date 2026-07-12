@@ -54,34 +54,22 @@ Instead of simply completing the course, I created a complete Arabic educational
 
 
 
-\# Repository Structure
-
-
+## Repository Structure
 
 ```text
-
 Introduction-to-Python-Arabic-Course/
 
-
-
 ├── README.md
-
+├── LICENSE
+├── .gitignore
 ├── PDFs/
-
 ├── Videos/
-
 ├── Thumbnails/
-
 └── Course Materials/
-
-&#x20;   ├── 01 - Python Basics/
-
-&#x20;   ├── 02 - Python Lists/
-
-&#x20;   ├── 03 - Functions and Packages/
-
-&#x20;   └── 04 - NumPy/
-
+    ├── 01 - Python Basics/
+    ├── 02 - Python Lists/
+    ├── 03 - Functions and Packages/
+    └── 04 - NumPy/
 ```
 
 
