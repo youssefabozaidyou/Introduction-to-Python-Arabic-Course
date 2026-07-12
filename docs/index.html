@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction to Python (Arabic) | DataCamp Localization Showcase</title>
+    <meta name="description" content="An original Arabic educational project based on DataCamp's Introduction to Python course created by Youssef Abozaid.">
+
+    <!-- Fonts & Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="brand-logo">
+                <span>You&<span class="highlight">EdTech</span></span><span class="cursor-blink" aria-hidden="true"></span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#showcase">Showcase</a></li>
+                <li><a href="#curriculum">Curriculum</a></li>
+                <li><a href="#author">Author</a></li>
+            </ul>
+            <!-- data-needs-link: confirm GitHub repo URL -->
+            <a href="https://github.com/youssefabozaidyou/Introduction-to-Python-Arabic-Course" target="_blank" class="btn btn-outline nav-btn">
+                <i class="fab fa-github"></i> GitHub Repo
+            </a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container hero-container">
+            <div class="hero-content reveal">
+                <span class="badge">Arabic Localization Initiative</span>
+                <h1>Introduction to Python <span class="gradient-text">(Arabic Experience)</span></h1>
+                <p class="hero-description">
+                    An original, fully-structured Arabic educational project based on the concepts covered in DataCamp's <strong>Introduction to Python</strong> course. Bridging the gap between world-class Data Science education and Arabic learners.
+                </p>
+                <div class="hero-actions">
+                    <a href="https://github.com/youssefabozaidyou/Introduction-to-Python-Arabic-Course" target="_blank" class="btn btn-primary">
+                        <i class="fab fa-github"></i> Explore Repository
+                    </a>
+                    <a href="#showcase" class="btn btn-secondary">
+                        <i class="fas fa-play-circle"></i> View Showcase
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div>
+                        <div class="hero-stat-num" data-counter data-target="4">0</div>
+                        <div class="hero-stat-label">Chapters</div>
+                    </div>
+                    <div>
+                        <div class="hero-stat-num" data-counter data-target="100" data-suffix="%">0</div>
+                        <div class="hero-stat-label">Arabic Localized</div>
+                    </div>
+                    <div>
+                        <div class="hero-stat-num" data-counter data-target="20" data-suffix="+">0</div>
+                        <div class="hero-stat-label">Exercises</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-banner reveal">
+                <div class="terminal">
+                    <div class="terminal-bar">
+                        <span class="terminal-dot red"></span>
+                        <span class="terminal-dot yellow"></span>
+                        <span class="terminal-dot green"></span>
+                        <span class="terminal-title">chapter_01_basics.py</span>
+                    </div>
+                    <div class="terminal-body" id="terminalBody" aria-hidden="true">
+                        <!-- Populated by script.js typewriter -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-eyebrow">// about</span>
+                <h2>Project Overview & Vision</h2>
+                <p>Proving how high-quality technical education can be localized authentically for the Arabic community.</p>
+            </div>
+            <div class="grid grid-3 reveal-stagger reveal">
+                <div class="card" style="--i:0">
+                    <div class="card-icon"><i class="fas fa-layer-group"></i></div>
+                    <h3>Original Explanation</h3>
+                    <p>Concepts taught using tailored local examples without simple translation, maintaining full technical accuracy.</p>
+                </div>
+                <div class="card" style="--i:1">
+                    <div class="card-icon"><i class="fas fa-laptop-code"></i></div>
+                    <h3>Interactive Assets</h3>
+                    <p>Includes Python exercises, Obsidian learning notes, custom PDF slides, and YouTube video walkthroughs.</p>
+                </div>
+                <div class="card" style="--i:2">
+                    <div class="card-icon"><i class="fas fa-handshake"></i></div>
+                    <h3>DataCamp Vision</h3>
+                    <p>Designed as a proof-of-concept for potential collaboration on official Arabic localization initiatives.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="section bg-alt" style="padding: 60px 0;">
+        <div class="container">
+            <div class="stats-grid reveal">
+                <div class="stat-box">
+                    <span class="stat-num" data-counter data-target="4">0</span>
+                    <span class="stat-label">Course Chapters</span>
+                </div>
+                <div class="stat-box">
+                    <span class="stat-num" data-counter data-target="100" data-suffix="%">0</span>
+                    <span class="stat-label">Arabic Localization</span>
+                </div>
+                <div class="stat-box">
+                    <span class="stat-num" data-counter data-target="4">0</span>
+                    <span class="stat-label">HD Video Lessons</span>
+                </div>
+                <div class="stat-box">
+                    <span class="stat-num" data-counter data-target="20" data-suffix="+">0</span>
+                    <span class="stat-label">Practice Exercises</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Curriculum Section -->
+    <section id="curriculum" class="section">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-eyebrow">// curriculum</span>
+                <h2>Course Chapters Covered</h2>
+                <p>Four comprehensive modules matching DataCamp's core Python curriculum. Click a chapter to see what's inside.</p>
+            </div>
+
+            <div class="accordion reveal">
+                <div class="acc-item is-open">
+                    <button class="acc-header" aria-expanded="true">
+                        <span class="acc-line">01</span>
+                        <span class="acc-title">
+                            <h3>Python Basics</h3>
+                            <span>Variables, Data Types, Type Conversion, and Basic Operations.</span>
+                        </span>
+                        <i class="fas fa-chevron-down acc-chevron"></i>
+                    </button>
+                    <div class="acc-panel">
+                        <div class="acc-panel-inner">
+                            <span class="topic-chip">Variables & Assignment</span>
+                            <span class="topic-chip">int / float / str / bool</span>
+                            <span class="topic-chip">Type Conversion</span>
+                            <span class="topic-chip">Arithmetic Operators</span>
+                            <span class="topic-chip">print() & type()</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="acc-item">
+                    <button class="acc-header" aria-expanded="false">
+                        <span class="acc-line">02</span>
+                        <span class="acc-title">
+                            <h3>Python Lists</h3>
+                            <span>List Creation, Indexing, Slicing, and Manipulating Nested Lists.</span>
+                        </span>
+                        <i class="fas fa-chevron-down acc-chevron"></i>
+                    </button>
+                    <div class="acc-panel">
+                        <div class="acc-panel-inner">
+                            <span class="topic-chip">Creating Lists</span>
+                            <span class="topic-chip">Indexing & Negative Index</span>
+                            <span class="topic-chip">Slicing [start:end]</span>
+                            <span class="topic-chip">Nested Lists</span>
+                            <span class="topic-chip">List Manipulation</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="acc-item">
+                    <button class="acc-header" aria-expanded="false">
+                        <span class="acc-line">03</span>
+                        <span class="acc-title">
+                            <h3>Functions & Packages</h3>
+                            <span>Built-in Functions, Custom Methods, and Importing Scientific Packages.</span>
+                        </span>
+                        <i class="fas fa-chevron-down acc-chevron"></i>
+                    </button>
+                    <div class="acc-panel">
+                        <div class="acc-panel-inner">
+                            <span class="topic-chip">Built-in Functions</span>
+                            <span class="topic-chip">Methods (.upper, .append)</span>
+                            <span class="topic-chip">import & Packages</span>
+                            <span class="topic-chip">pip install</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="acc-item">
+                    <button class="acc-header" aria-expanded="false">
+                        <span class="acc-line">04</span>
+                        <span class="acc-title">
+                            <h3>NumPy Fundamentals</h3>
+                            <span>NumPy Arrays, Vectorized Operations, 2D Arrays, and Boolean Subsetting.</span>
+                        </span>
+                        <i class="fas fa-chevron-down acc-chevron"></i>
+                    </button>
+                    <div class="acc-panel">
+                        <div class="acc-panel-inner">
+                            <span class="topic-chip">np.array()</span>
+                            <span class="topic-chip">Vectorized Operations</span>
+                            <span class="topic-chip">2D Arrays & Shape</span>
+                            <span class="topic-chip">Boolean Subsetting</span>
+                            <span class="topic-chip">Basic Statistics</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Showcase Section -->
+    <section id="showcase" class="section bg-alt">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-eyebrow">// showcase</span>
+                <h2>Project Learning Assets</h2>
+                <p>Every learning asset in this project was independently designed and authored.</p>
+            </div>
+
+            <div class="tabs-wrap reveal">
+                <div class="tab-list" role="tablist">
+                    <button class="tab-btn is-active" data-tab="pdf" role="tab" aria-selected="true"><i class="fas fa-file-pdf"></i> PDF Slides</button>
+                    <button class="tab-btn" data-tab="video" role="tab" aria-selected="false"><i class="fas fa-video"></i> Video Lessons</button>
+                    <button class="tab-btn" data-tab="code" role="tab" aria-selected="false"><i class="fas fa-code"></i> Python Files</button>
+                    <button class="tab-btn" data-tab="notes" role="tab" aria-selected="false"><i class="fas fa-book-open"></i> Obsidian Notes</button>
+                </div>
+
+                <div class="tab-panels">
+                    <div class="tab-panel is-active" data-panel="pdf">
+                        <div class="tab-panel-info">
+                            <h3>Structured PDF Slide Decks</h3>
+                            <p>Every chapter has a dedicated slide deck rebuilt from scratch in Arabic, following the original DataCamp structure and pacing.</p>
+                            <ul class="tab-panel-list">
+                                <li><i class="fas fa-check-circle"></i> 4 chapter decks, fully localized</li>
+                                <li><i class="fas fa-check-circle"></i> Matches original slide count</li>
+                                <li><i class="fas fa-check-circle"></i> Clean, print-ready layout</li>
+                            </ul>
+                            <!-- data-needs-link: PDF drive link(s) per chapter -->
+                            <a href="#" class="btn btn-primary"><i class="fas fa-download"></i> View Slides</a>
+                        </div>
+                        <div class="tab-panel-preview">chapter_01_basics.pdf<br>chapter_02_lists.pdf<br>chapter_03_functions.pdf<br>chapter_04_numpy.pdf</div>
+                    </div>
+
+                    <div class="tab-panel" data-panel="video">
+                        <div class="tab-panel-info">
+                            <h3>HD Arabic Video Walkthroughs</h3>
+                            <p>Full spoken-Arabic explanations recorded for each chapter, walking through every concept and example.</p>
+                            <ul class="tab-panel-list">
+                                <li><i class="fas fa-check-circle"></i> Egyptian colloquial narration</li>
+                                <li><i class="fas fa-check-circle"></i> Screen-recorded code demos</li>
+                                <li><i class="fas fa-check-circle"></i> Published on YouTube</li>
+                            </ul>
+                            <!-- data-needs-link: confirm YouTube playlist/video URLs -->
+                            <a href="https://www.youtube.com/@YoussefAbozaid_You" target="_blank" class="btn btn-primary"><i class="fab fa-youtube"></i> Watch on YouTube</a>
+                        </div>
+                        <div class="tab-panel-preview">▶ chapter_01_basics.mp4<br>▶ chapter_02_lists.mp4<br>▶ chapter_03_functions.mp4<br>▶ chapter_04_numpy.mp4</div>
+                    </div>
+
+                    <div class="tab-panel" data-panel="code">
+                        <div class="tab-panel-info">
+                            <h3>Starter Code & Solutions</h3>
+                            <p>Practice exercises paired with starter files and fully worked solutions for every chapter.</p>
+                            <ul class="tab-panel-list">
+                                <li><i class="fas fa-check-circle"></i> 20+ hands-on exercises</li>
+                                <li><i class="fas fa-check-circle"></i> Starter + solution files</li>
+                                <li><i class="fas fa-check-circle"></i> Commented in Arabic</li>
+                            </ul>
+                            <a href="https://github.com/youssefabozaidyou/Introduction-to-Python-Arabic-Course" target="_blank" class="btn btn-primary"><i class="fab fa-github"></i> Browse Repository</a>
+                        </div>
+                        <div class="tab-panel-preview">/exercises<br>&nbsp;&nbsp;chapter_01/<br>&nbsp;&nbsp;chapter_02/<br>&nbsp;&nbsp;chapter_03/<br>&nbsp;&nbsp;chapter_04/</div>
+                    </div>
+
+                    <div class="tab-panel" data-panel="notes">
+                        <div class="tab-panel-info">
+                            <h3>Obsidian Learning Notes</h3>
+                            <p>Rich Markdown notes linking every concept together, built as a connected knowledge base for review.</p>
+                            <ul class="tab-panel-list">
+                                <li><i class="fas fa-check-circle"></i> Linked concept notes</li>
+                                <li><i class="fas fa-check-circle"></i> Arabic + code snippets</li>
+                                <li><i class="fas fa-check-circle"></i> Exportable Markdown vault</li>
+                            </ul>
+                            <!-- data-needs-link: Obsidian vault / notes share link -->
+                            <a href="#" class="btn btn-primary"><i class="fas fa-book-open"></i> View Notes</a>
+                        </div>
+                        <div class="tab-panel-preview">vault/<br>&nbsp;&nbsp;01-basics.md<br>&nbsp;&nbsp;02-lists.md<br>&nbsp;&nbsp;03-functions.md<br>&nbsp;&nbsp;04-numpy.md</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Author Section -->
+    <section id="author" class="section">
+        <div class="container author-container">
+            <div class="author-card reveal">
+                <h2>Created by Youssef Abozaid</h2>
+                <p class="author-title">Computer Science Student — Data Science & AI Specialization</p>
+                <p class="author-bio">
+                    Passionate about Data Science education, technical documentation, and creating modern Arabic learning experiences for EdTech platforms.
+                </p>
+                <div class="author-links">
+                    <a href="mailto:youssefabozaid.you@gmail.com" class="btn btn-primary"><i class="fas fa-envelope"></i> Contact Me</a>
+                    <a href="https://www.youtube.com/@YoussefAbozaid_You" target="_blank" class="btn btn-secondary"><i class="fab fa-youtube"></i> YouTube Channel</a>
+                    <a href="https://github.com/youssefabozaidyou/Introduction-to-Python-Arabic-Course" target="_blank" class="btn btn-secondary"><i class="fab fa-github"></i> GitHub</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <p>&copy; 2026 Youssef Abozaid. Independent Arabic Educational Project.</p>
+            <p class="disclaimer">Not affiliated with or endorsed by DataCamp Inc. DataCamp trademarks belong to DataCamp Inc.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
