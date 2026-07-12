@@ -1,5 +1,4 @@
 ![Course Banner](banner.png)
-
 \# Introduction to Python (Arabic)
 
 
