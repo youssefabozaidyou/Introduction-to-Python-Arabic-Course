@@ -60,7 +60,7 @@ Instead of simply completing the course, I created a complete Arabic educational
 
 ```text
 
-DataCamp Portfolio/
+Introduction-to-Python-Arabic-Course/
 
 
 
